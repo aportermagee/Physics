@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home || Phisics Test</title>
+    <title>Phisics Test</title>
   </head>
   <body>
-    <canvas width="" height=""></canvas>
+    <canvas id="canvas" style="width: 100vw; height: 100vh;"></canvas>
+    <script>
+      let canvas = document.getElementById('canvas');
+      canvas.width = canvas.innerWidth;
+      canvas.height = canvas.innerHeight;
+    </script>
   </body>
 </html>
